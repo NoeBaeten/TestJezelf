@@ -10,11 +10,11 @@ op basis van een array. Met deze test jezelf konden we onze kennis en vaardighed
 
 
 
-#### 2 - Include
+#### 2 - [Include](https://github.com/dirixtom/TestJezelf/tree/master/2%20Include)
 
 In Test Jezelf 2 moesten we een **home.php** en een **contact.php** maken met daarin een herbruikbare navigatie en footer. Dus via een include.
 
-#### 3 - To-do list
+#### 3 - [To-do list](https://github.com/dirixtom/TestJezelf/tree/master/3%20To-do)
 
 Voor Test Jezelf 3 moesten we een to-do lijstje maken van een paar taken. De taken die binnen de twee uur van de deadline waren moesten een rode kleur krijgen, tussen de twee en de 24 uur een oranje en diegenen met meer dan 24 uur te gaan tot de deadline moesten een groene kleur krijgen.
 
