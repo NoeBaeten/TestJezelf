@@ -2,13 +2,6 @@
 
 Deze repository dient om de wekelijkse taken, of test jezelf's, van het vak PHP1 bij te houden.
 
-##Inhoudstafel
-* [Test Jezelf 1 - Timeline][#### 1]
-* Test Jezelf 2 - Include
-* Test Jezelf 3 - To-do list
-* Test Jezelf 4 - Shopping Basket
-* Test Jezelf 5 - Login
-
 #### 1 - [Timeline](https://github.com/dirixtom/TestJezelf/tree/master/1%20Timeline)
 
 In Test Jezelf 1 was het de bedoeling dat we heel basic
