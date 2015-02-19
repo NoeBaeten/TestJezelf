@@ -1,0 +1,1 @@
+<footer>Hi, this is an included footer!</footer>
