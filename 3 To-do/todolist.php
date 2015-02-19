@@ -97,11 +97,11 @@
 		<ul class='todolist'>
 			<?php foreach ($updates as $update) { ?>
 					<li class='todoitem'>
-						<?php if($update['deadline'] < 2) {
+						<?php if($update['deadline'] <= 2) {
 							echo "<h3 class='red'>" . $update['category'] . "</h2>";
 							echo "<h2 class='red'>" . $update['description'] . "</p>";
 							echo "<h4 class='red'>" . "Deadline in " . $update['deadline'] . " uur </h3>";
-						} else if($update['deadline'] < 24) {
+						} else if($update['deadline'] > 2 && $update['deadline'] <= 24) {
 							echo "<h3 class='orange'>" . $update['category'] . "</h2>";
 							echo "<h2 class='orange'>" . $update['description'] . "</p>";
 							echo "<h4 class='orange'>" . "Deadline in "  . $update['deadline'] . " uur</h3>";
