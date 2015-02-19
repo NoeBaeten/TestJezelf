@@ -2,11 +2,13 @@
 
 Deze repository dient om de wekelijkse taken, of test jezelf's, van het vak PHP1 bij te houden.
 
-#### 1 - Timeline
+#### 1 - [Timeline](https://github.com/dirixtom/TestJezelf/tree/master/1%20Timeline)
 
 In Test Jezelf 1 was het de bedoeling dat we heel basic
 de checkins van op een tijdlijn als Facebook of Twitter bouwden
 op basis van een array. Met deze test jezelf konden we onze kennis en vaardigheden van arrays testen en tegelijkertijd ook oefenen.
+
+
 
 #### 2 - Include
 
