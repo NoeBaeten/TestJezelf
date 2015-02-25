@@ -1,7 +1,5 @@
 <?php
 
-	$salt = "dfg48.df;8sfh..erg";
-
 	function canLogin($p_username, $p_password)
 	{
 		if($p_username == "tom" && $p_password == "test")
@@ -35,7 +33,7 @@
 	if(!empty($_POST))
 		{
 			$username = $_POST['username'];
-			$password = md5($_POST['password'] . $salt);
+			$password = $_POST['password'];
 
 			if (canLogin($username, $password))
 				{
