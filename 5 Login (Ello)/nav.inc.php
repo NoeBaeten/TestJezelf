@@ -38,18 +38,18 @@
 			if (canLogin($username, $password))
 				{
 					doLogin($username);
-					$feedback = "Welcome back!";
+					$feedback = "Welcome back! <a href='logout.php'>Logout?</a>";
 				}
 				else
 				{
-					$feedback = "sorry, you can't login";
+					$feedback = "Wrong username or password";
 				}
 		}
 ?>
 
 <nav>
 	<?php if( isset( $feedback) ): ?>
- 		<p class="feedback"><?php echo $feedback; ?> <a href="logout.php">Logout?</a></p>
+ 		<p class="feedback"><?php echo $feedback; ?></p>
 	<?php endif; ?>
 
 	<?php if( !isLoggedIn() ): ?>
