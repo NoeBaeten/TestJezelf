@@ -12,7 +12,7 @@
 	
 
 	<div class="profile_details">
-		<img src="" alt="">	
+		<img src="" alt="">
 		<h1>name here</h1>
 		<p>bio here</p>
 	</div>

@@ -2,7 +2,7 @@
 	
 	function canLogin($p_username, $p_password)
 	{
-		// this function only checks if a user may or may not log in	
+		// this function only checks if a user may or may not log in
 	}
 
 	function isLoggedIn()
