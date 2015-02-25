@@ -1,5 +1,7 @@
 <?php
-	
+
+	$salt = "dfg48.df;8sfh..erg";
+
 	function canLogin($p_username, $p_password)
 	{
 		if($p_username == "tom" && $p_password == "test")
@@ -31,20 +33,32 @@
 	}
 
 	if(!empty($_POST))
-	{
-		$username = $_POST['username'];
-		$password = $_POST['password'];
-	}
+		{
+			$username = $_POST['username'];
+			$password = md5($_POST['password'] . $salt);
+
+			if (canLogin($username, $password))
+				{
+					doLogin($username);
+					$feedback = "Welcome back!";
+				}
+				else
+				{
+					$feedback = "sorry, you can't login";
+				}
+		}
 ?>
 
 <nav>
+	<?php if( isset( $feedback) ): ?>
+ 		<p class="feedback"><?php echo $feedback; ?> <a href="logout.php">Logout?</a></p>
+	<?php endif; ?>
+
 	<?php if( !isLoggedIn() ): ?>
 	<form action="" method="post">
 		<input class="input" type="text" name="username" placeholder="Your username">
 		<input class="input" type="password" name="password" placeholder="Your password">
 		<button class="button" type="submit">Log in</button>
 	</form>
-	<?php else: ?>
-	<p class="welcome">Welcome back! <a href="logout.php">Log out?</a></p>
 	<?php endif; ?>
 </nav>
