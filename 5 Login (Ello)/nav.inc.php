@@ -73,5 +73,7 @@
 		<input class="input" type="password" name="password" placeholder="Your password">
 		<button class="button" type="submit">Log in</button>
 	</form>
+	<?php else:?>
+		<p>Welcome back!</p>
 	<?php endif; ?>
 </nav>

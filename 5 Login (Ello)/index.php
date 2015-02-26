@@ -1,5 +1,5 @@
 <?php 	include("data.inc.php");
-		include("nav.inc.php"); 
+		include("nav.inc.php");
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
