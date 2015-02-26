@@ -1,4 +1,5 @@
 <?php
+	$salt="zecgfbzar652resvtsyg96581";
 
 	function canLogin($p_username, $p_password)
 	{
@@ -14,20 +15,33 @@
 
 	function isLoggedIn()
 	{
-		if(isset($_COOKIE['loginCookie']))
+		/*if(isset($_COOKIE['loginCookie']))
 		{
 			return true;
 		}
 		else
 		{
 			return false;
+		}*/
+		if (isset($_COOKIE['mycookie']))
+		{
+			$cookie = $_COOKIE['mycookie'];
+			$crumbs = explode(",", $cookie);
+			if (md5($crumbs[0] . $salt) == $crumbs[1])
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
 		}
 	}
 
 	function doLogin($p_user)
 	{
-		$content = $p_username;
-		setcookie("loginCookie", $content, time()+60*60);
+		$data = $username . "," . md5($username . $salt);
+		setcookie("mycookie", $data, time()+3600);
 	}
 
 	if(!empty($_POST))
