@@ -19,14 +19,12 @@ Voor Test Jezelf 3 moesten we een to-do lijstje maken van een paar taken. De tak
 
 Hier heb ik de items in een multidimensionele array gestopt en gecontroleerd op hun deadline. Op basis van die deadline heb ik dan de items afgeprint met of te wel een class die een rode kleur aan het item gaf, een die één oranje kleur gaf of één die een groene kleur gaf.
 
-#### 4 - Shopping Basket
+#### 4 - [Shopping Basket](https://github.com/dirixtom/TestJezelf/tree/master/4%20Winkelmandje)
 
-In de vierde Test Jezelf moesten we een mini-webwinkel bouwen met enkele producten. In **products.php** moeten de producten getoond worden. In **detail.php** moeten de productdetails van één enkel product zitten en een "nu kopen" knop. In **cart.inc.php** wordt het winkelmandje afgedrukt en in **products.inc.php** wordt de array met alle producten bewaard. Er moesten ook een hoop extra functionaliteiten in zitten.
+In de vierde Test Jezelf moesten we een mini-webwinkel bouwen met enkele producten. In **products.php** moeten de producten getoond worden. In **detail.php** moeten de productdetails van één enkel product zitten en een "nu kopen" knop. In **cart.inc.php** wordt het winkelmandje afgedrukt en in **products.inc.php** wordt de array met alle producten bewaard. Er moesten ook een paar extra functionaliteiten in zitten.
 
-Meer info over hoe ik de opdracht heb opgelost zodra ik er aan begin en ze afgewerkt heb.
+#### 5 - [Login](https://github.com/dirixtom/TestJezelf/tree/master/5%20Login%20(Ello))
 
-#### 5 - Login
+In Test Jezelf 5 kregen we beginbestanden vak een login pagina en moesten we met behulp van cookies die pagina functioneel maken. Dus succesvol inloggen en terug uitloggen.
 
-In Test Jezelf 5 kregen we beginbestanden vak een login pagina en moesten we met behulp van cookies die pagina functioneel maken. Dus inloggen, naar een andere pagina verwijzen en terug uitloggen.
 
-Meer info over hoe ik de opdracht heb opgelost zodra ik er aan begin en ze afgewerkt heb.
