@@ -1,4 +1,6 @@
-<?php include("data.inc.php"); ?><!DOCTYPE html>
+<?php 	include("data.inc.php");
+		include("nav.inc.php"); 
+?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -8,8 +10,6 @@
 	<link rel="stylesheet" href="css/ello.css">
 </head>
 <body class="homepage">
-
-	<?php include("nav.inc.php"); ?>
 	
 	<div class="users_container">
 	<ul class="users">

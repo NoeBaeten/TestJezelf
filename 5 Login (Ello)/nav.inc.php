@@ -24,6 +24,7 @@
 		}*/
 		if (isset($_COOKIE['mycookie']))
 		{
+			$salt="zecgfbzar652resvtsyg96581";
 			$cookie = $_COOKIE['mycookie'];
 			$crumbs = explode(",", $cookie);
 			if (md5($crumbs[0] . $salt) == $crumbs[1])
@@ -66,7 +67,7 @@
  		<p class="feedback"><?php echo $feedback; ?></p>
 	<?php endif; ?>
 
-	<?php if( !isLoggedIn() ): ?>
+	<?php if( isLoggedIn() ): ?>
 	<form action="" method="post">
 		<input class="input" type="text" name="username" placeholder="Your username">
 		<input class="input" type="password" name="password" placeholder="Your password">
