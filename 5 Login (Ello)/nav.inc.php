@@ -1,5 +1,4 @@
 <?php
-	$salt="zecgfbzar652resvtsyg96581";
 
 	function canLogin($p_username, $p_password)
 	{
@@ -38,8 +37,9 @@
 		}
 	}
 
-	function doLogin($p_user)
+	function doLogin($username)
 	{
+		$salt="zecgfbzar652resvtsyg96581";
 		$data = $username . "," . md5($username . $salt);
 		setcookie("mycookie", $data, time()+3600);
 	}
