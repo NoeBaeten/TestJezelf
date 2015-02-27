@@ -21,10 +21,10 @@ Hier heb ik de items in een multidimensionele array gestopt en gecontroleerd op 
 
 #### 4 - [Shopping Basket](https://github.com/dirixtom/TestJezelf/tree/master/4%20Winkelmandje)
 
-In de vierde Test Jezelf moesten we een mini-webwinkel bouwen met enkele producten. In **products.php** moeten de producten getoond worden. In **detail.php** moeten de productdetails van één enkel product zitten en een "nu kopen" knop. In **cart.inc.php** wordt het winkelmandje afgedrukt en in **products.inc.php** wordt de array met alle producten bewaard. Er moesten ook een paar extra functionaliteiten in zitten.
+In de vierde Test Jezelf moesten we een mini-webwinkel bouwen met enkele producten. In **products.php** moeten de producten getoond worden. In **detail.php** moeten de productdetails van één enkel product zitten en een *nu kopen* knop. In **cart.inc.php** wordt het winkelmandje afgedrukt en in **products.inc.php** wordt de array met alle producten bewaard. Er moesten ook een paar extra functionaliteiten in zitten.
 
 #### 5 - [Login](https://github.com/dirixtom/TestJezelf/tree/master/5%20Login%20(Ello))
 
-In Test Jezelf 5 kregen we beginbestanden vak een login pagina en moesten we met behulp van cookies die pagina functioneel maken. Dus succesvol inloggen en terug uitloggen.
+In Test Jezelf 5 kregen we beginbestanden vak een login pagina en moesten we met behulp van cookies die pagina functioneel maken. Dus succesvol inloggen en terug uitloggen. In **nav.inc.php** gebeurt het grootste deel van de login, daar wordt er gechecked of er iemand wil inloggen, deze logingegevens worden gecontroleerd, versleuteld met een minimalistische encryptie, in een cookie gestopt en doorverwezen. Daarna kan je op *logout* klikken, wat je naar een pagina verwijst die de login cookie verwijderd.
 
 
