@@ -67,7 +67,7 @@
  		<p class="feedback"><?php echo $feedback; ?></p>
 	<?php endif; ?>
 
-	<?php if( isLoggedIn() ): ?>
+	<?php if( !isLoggedIn() ): ?>
 	<form action="" method="post">
 		<input class="input" type="text" name="username" placeholder="Your username">
 		<input class="input" type="password" name="password" placeholder="Your password">
