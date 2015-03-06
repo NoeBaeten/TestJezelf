@@ -27,4 +27,9 @@ In de vierde Test Jezelf moesten we een mini-webwinkel bouwen met enkele product
 
 In Test Jezelf 5 kregen we beginbestanden vak een login pagina en moesten we met behulp van cookies die pagina functioneel maken. Dus succesvol inloggen en terug uitloggen. In **nav.inc.php** gebeurt het grootste deel van de login, daar wordt er gechecked of er iemand wil inloggen, deze logingegevens worden gecontroleerd, versleuteld met een minimalistische encryptie, in een cookie gestopt en doorverwezen. Daarna kan je op *logout* klikken, wat je naar een pagina verwijst die de login cookie verwijderd.
 
+#### 6 - [Blogposts](https://github.com/dirixtom/TestJezelf/tree/master/6%20Blogpost)
+
+In Test Jezelf 6 was het de bedoeling dat we een mini cms maakten. Hier moest je een blogpost kunnen posten.
+De connectie met de database moest met PDO. (Work in progress, ik moet mijn MAMP settings nog aanpassen om PDO toe te staan) Ik heb hier met classes gewerkt, de connectie wordt gelegd in **Connectie.class.php**, de posts worden opgeslagen in de database via de class **Post.class.php** en de pagina **print.php**.
+
 
