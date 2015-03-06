@@ -1,0 +1,52 @@
+body{
+	font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	background-color: #F9F6F4;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+h1, h2{
+	color: #4F2412;
+}
+form{
+	width: 40%;
+	margin: 0 auto;
+}
+form input, form textarea {
+    border:1px solid #CCCCCC;
+    border-radius:2px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+form input:focus, form textarea:focus {
+    background: #fff;
+    border:1px solid #CCCCCC;
+}
+
+button {
+    background-color: #C9A798;
+    border: 1px solid #E9E0DB;
+    border-radius: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 30px;
+    text-align: center;
+    float: left;
+}
+button:hover {
+    opacity:.85;
+    cursor: pointer;
+}
+button:active {
+    border: 1px solid #E9E0DB;
+}
+.clear{
+	clear: both;
+}

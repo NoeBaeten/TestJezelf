@@ -19,16 +19,18 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div>
-		<h2>Mini CMS (Zonder PDO want ik krijg mijne MAMP ni op tijd in orde)</h2>
+	<div class="container">
+		<h2>Mini CMS</h2>
 		<form action="" method="post">
 			<input type="text" name="title" placeholder="Title">
-			<textarea rows="4" placeholder="Text" name="post"></textarea>
-
+			<textarea rows="7" placeholder="Text" name="post"></textarea>
+			<br />
 			<button type="submit">Post</button>
 		</form>
-	</div>
 
-	<p><?php include_once("print.php"); ?></p>
+		<div class="clear"></div>
+		
+		<?php include_once("print.php"); ?>
+	</div>
 </body>
 </html>

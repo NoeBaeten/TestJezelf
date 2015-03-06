@@ -5,11 +5,13 @@
 		$sql = "SELECT * FROM tbltjcms ORDER BY id DESC";
 		$result = $db->conn->query($sql);
 
-		echo "<div class='row'>";
-		echo "<div class='col-md-12'>";
+		echo "<div class='blogpost'>";
 
 		foreach($result as $post) {
-			echo "<h2>" . $post['titel'] . "</h2>";
+			echo "<h3>" . $post['titel'] . "</h3>";
 			echo "<p>" . $post['bericht'] . "</p>";
+			echo "<div class='clear'></div>";
 		}
+
+		echo "</div>";
  ?>
