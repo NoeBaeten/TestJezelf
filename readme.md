@@ -30,6 +30,6 @@ In Test Jezelf 5 kregen we beginbestanden vak een login pagina en moesten we met
 #### 6 - [Blogposts](https://github.com/dirixtom/TestJezelf/tree/master/6%20Blogpost)
 
 In Test Jezelf 6 was het de bedoeling dat we een mini cms maakten. Hier moest je een blogpost kunnen posten.
-De connectie met de database moest met PDO. (Work in progress, ik moet mijn MAMP settings nog aanpassen om PDO toe te staan) Ik heb hier met classes gewerkt, de connectie wordt gelegd in **Connectie.class.php**, de posts worden opgeslagen in de database via de class **Post.class.php** en de pagina **print.php**.
+De connectie met de database moest met PDO. (Work in progress, ik moet mijn MAMP settings nog aanpassen om PDO toe te staan) Ik heb hier met classes gewerkt, de connectie wordt gelegd in **Connectie.class.php**, de posts worden opgeslagen in de database via de class **Post.class.php** en via de pagina **print.php** afgeprint op de **index.php** pagina.
 
 
